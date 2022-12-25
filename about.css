@@ -1,0 +1,270 @@
+nav {
+  
+  display: flex ;
+  justify-content: center;
+  color: #ddd;
+  
+  font-size: 14px;
+line-height: 1;
+margin: 0;
+padding: 0;
+text-align: start;
+}
+a {text-decoration: none;}
+h1 {
+font-size: 40px;
+  font-weight: 700;
+margin-bottom: 20px;
+  margin-top: 20px;
+}
+h2 {
+font-size: 15px;
+  font-weight: 600;
+margin-bottom: 30px;
+  margin-top: 10px;
+}
+.container {
+margin: auto;
+width: 1500px;
+}
+.ul-reset {
+padding-left: 0;
+ margin-top: 0;
+ margin-bottom: 0;
+list-style: none;
+}
+
+
+
+/* #Navigation Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+background: #ffff;
+font-size: 0;
+position: relative;
+}
+nav > ul > li {
+display: inline-block;
+  font-size: 14px;
+  padding: 0 15px;
+  position: relative;
+}
+nav > ul > li:first-child {padding-left: 0;}
+nav > ul > li:last-child {padding-right: 0;}
+nav > ul > li > a {
+color: rgb(15, 15, 15);
+  display: block;
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 3px solid transparent;
+}
+nav > ul > li:hover > a {
+color: #0c0c0c; 
+  border-bottom: 3px solid #69aae0;
+}
+
+.mega-menu {
+	background: #f0f0f0;
+  	display: none;
+  	left: 0;
+  	position: absolute;
+  	text-align: left;
+  	width: 100%;
+}
+.mega-menu h3 {color: #444;}
+.mega-menu ul {
+	float:left;
+  	margin-bottom: 20px;
+  	margin-right: 40px;
+  	width: 205px;
+}
+.mega-menu ul:last-child {margin-right: 0;}
+.mega-menu a {
+	border-bottom: 1px solid #ddd;
+  	color: #1a1b1b;
+  	display: block;
+  	padding: 10px 0;
+}
+.mega-menu a:hover {background-color: #fff;color: #000000;}
+
+
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {position: static;}
+.droppable > a:after {
+	content: "\f107";
+  	font-family: FontAwesome;
+  	font-size: 12px;
+  	padding-left: 6px;
+  	position: relative;
+  	top: -1px;
+}
+.droppable:hover .mega-menu {display: block;}
+
+
+
+/* #Browser Clearfix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+   display: table; /* 2 */
+}
+.cf:after {clear: both;}
+
+#storm img {
+  width: 40%;
+  height: 40%;
+}
+  #storm{
+    align-items:center;
+    justify-content: space-between;
+  }
+ .logo img{
+   width: 100%;
+    
+   
+  }
+  .logo{
+    width: 15%;
+    margin-top: 0px;
+    padding: 20px;
+  }
+  .dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+    }
+    
+    .dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+    }
+    .dropbtn {
+      background-color:#fff;
+      color: rgb(30, 30, 30);
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #fff;}
+   
+   
+   .photo{
+    background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about.jpg);
+    padding: 13rem 0;
+
+   }
+   .text{
+      text-align: center;
+      color: #f0f0f0;
+   }
+   .textorta h1{
+         align-items: center;
+   }
+   .photo-3{
+      display: flex;
+      justify-content: space-around;
+   }
+   .level{
+       display: flex;
+       justify-content: space-around;
+       padding: 100px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+      background-image: url(https://wpbingosite.com/wordpress/kowine/wp-content/uploads/2021/06/about2.jpg);
+   }
+   
+   
+   
+   .second-2{
+       display: flex;
+       justify-content: space-between;
+   }
+   .right-text{
+     text-align: center;
+     color: #0d0d0d;
+     margin-top: 200px;
+   }
+   .level  span{
+     color: #fff;
+     font-size: 15px;
+   }
+   .level i {
+     background-color: #fff;
+     padding: 15px;
+   }
+   
+   .owl-nav {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+  }
+  .owl-prev {
+    display:block;
+    float: left;
+    margin-left: -50px;
+    width: 50px;
+    height: 50px;
+  }
+  .owl-next {
+    float:right;
+    margin-right: -50px;
+    display:block;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .card-title { color: #18abd0; }
+  
+  .card-img-top img { max-height: 70px; max-width: 70px; margin: auto; } 
+
+   
+
+
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+  
